@@ -55,6 +55,7 @@ body {
   justify-content: center;
   align-items: center;
   perspective: 1000px;
+  font-family: "Noto Sans KR", sans-serif;
 }
 .text {
   /* color: gold; */
