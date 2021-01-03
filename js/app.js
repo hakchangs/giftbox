@@ -1,6 +1,5 @@
 const box = document.querySelector(".box")
 const face1 = document.querySelector(".face-1")
-const particles = document.querySelector(".particles")
 let pid
 
 box.addEventListener("click", (event) => {
@@ -10,9 +9,6 @@ box.addEventListener("click", (event) => {
   const timeout = isOpened ? 1000 * 1 : 10
   setTimeout(upParticles, timeout, isOpened)
 })
-// function upParticles(up) {
-//   particles.classList.toggle("up", up)
-// }
 
 function upParticles(up) {
   if (!up) {
